@@ -8,3 +8,11 @@
 body{
     font-family: "Raleway", sans-serif;
 }
+:root {
+	--color-grey: #494949;
+	--color-main-bg: #000000;
+	--color-tool-bar: #222222;
+	--color-text: #fdfdfd;
+	--color-share-screen: #4ccc00;
+	--color-end-call: #ae272b;
+}
