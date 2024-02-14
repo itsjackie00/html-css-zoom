@@ -97,10 +97,19 @@ main {
     align-content: center;
     align-items: center;
 }
+.s-between{
+    justify-content: space-between;
+}
 
 
 /* tool-bar */
 #toolbar {
     background-color: #222222;
-    height: 70px;
+    height: 200px;
+}
+.left{
+    color: var(--color-end-call);
+}
+div ul li{
+    list-style: none;
 }
