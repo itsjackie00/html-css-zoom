@@ -18,8 +18,8 @@
 <body>
     <!-- contenuto iniziale -->
     <div id="window">
-        <header>
-            <span class="d-flex f-end">
+        <header class="d-flex f-end">
+            <span class="">
                 <div class="view ">
                     <a href="#"><i class="fa-solid fa-table-cells"></i></a>
                     <span>Speaker view</span>
@@ -33,7 +33,7 @@
     </header>
 
     <!-- contenuto principale -->
-    <main class="debug d-flex align-items wrap">
+    <main class="debug d-flex align-items wrap f-start">
         <div class="screens"></div>
         <div class="screens"></div>
         <div class="screens"></div>
@@ -68,44 +68,70 @@
     </main>
 
     <!-- tool bar -->
-    <div id="toolbar" class="d-flex s-between">
-        <div class="left d-flex">
-            <div><i class="fa-solid fa-microphone"></i>
-                <div>Mute</div>
-                <div><i class="fa-solid fa-chevron-up"></i></div>
-                <div><i class="fa-solid fa-video"></i></div>
-                <div><i class="fa-solid fa-chevron-up"></i></div>
-                <div>Stop Video</div>
+    <div id="toolbar" class="d-flex s-between align-items">
+        <div class="left  d-flex f-center align-items ">
+            <div class="icons d-flex f-center align-items">
+                <i class="fa-solid fa-microphone"></i>
+                <small>Mute</small>
             </div>
-            <div class="central d-flex s-between">
-                <ul>
-                    <li><i class="fa-solid fa-user-plus"></i></li>
-                    <div>invite</div>
-                    <li><i class="fa-solid fa-user-group"></i></li>
-                    <div>Manage Partecipants</div>
-                    <li><i class="fa-sharp fa-solid fa-chart-column"></i></li>
-                    <div>polling</div>
-                    <li><i class="fa-solid fa-share-from-square"></i></li>
-                    <div>Share Screen</div>
-                    <li><i class="fa-solid fa-chevron-up"></i></li>
-                    <li><i class="fa-solid fa-comment"></i></li>
-                    <div>Chat</div>
-                    <li><i class="fa-solid fa-comment"></i></li>
-                    <div>Record</div>
-                    <li><i class="fa-solid fa-table-cells-large"></i></li>
-                    <div>Break Rooms</div>
-                    <li><i class="fa-solid fa-ellipsis"></i></li>
-                    <div>More</div>
-                </ul>
-                <div class="Left d-flex">
-                    <div>End meeting</div>
-                </div>
-
+            <div class="icons d-flex f-center align-items">
+                <small><i class="fa-solid fa-chevron-up"></i></small>
+            </div>
+            <div class="icons d-flex f-center align-items">
+                <i class="fa-solid fa-video"></i>
+                <small>Stop Video</small>
+            </div>
+            <div class="icons d-flex f-center align-items">
+                <small><i class="fa-solid fa-chevron-up"></i></small>
             </div>
         </div>
+
+        <div class="central d-flex align-items f-center">
+            <div class="icons d-flex f-center align-items">
+                <i class="fa-solid fa-user-plus"></i>
+                <small>invite</small>
+            </div>
+            <div class="icons d-flex f-center align-items">
+                <i class="fa-solid fa-user-group"></i>
+                <small>Manage Partecipants</small>
+            </div>
+            <div class="icons d-flex f-center align-items">
+                <i class="fa-sharp fa-solid fa-chart-column"></i>
+                <small>polling</small>
+            </div>
+            <div class="icons d-flex f-center align-items">
+                <i class="fa-solid fa-share-from-square"></i>
+                <small>Share Screen</small>
+            </div>
+            <div class="icons d-flex f-center align-items">
+                <i class="fa-solid fa-chevron-up"></i>
+            </div>
+            <div class="icons d-flex f-center align-items">
+                <i class="fa-solid fa-comment"></i>
+                <small>Chat</small>
+            </div>
+            <div class="icons d-flex f-center align-items">
+                <i class="fa-solid fa-comment"></i>
+                <small>Record</small>
+            </div>
+            <div class="icons d-flex f-center align-items">
+                <i class="fa-solid fa-table-cells-large"></i>
+                <small>Break Rooms</small>
+            </div>
+            <div class="icons d-flex f-center align-items">
+                <i class="fa-solid fa-ellipsis"></i>
+                <small>More</small>
+            </div>
+        </div>
+
+
+
+        <div class="right d-flex"></div>
+        <div>End meeting</div>
     </div>
 
-    </div>
+
+
 </body>
 
 </html>
