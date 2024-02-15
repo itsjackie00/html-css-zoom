@@ -21,7 +21,7 @@ body {
 
 header {
     width: 100%;
-    height: 60px;
+    height: 80px;
 }
 
 .view,
@@ -56,7 +56,9 @@ a {
     color: var(--color-text);
     background-color: var(--color-main-bg);
 }
-div, i{
+
+div,
+i {
     color: var(--color-text);
 }
 
@@ -66,12 +68,13 @@ main {
     padding: 30px;
     overflow-y: auto;
     gap: 10px;
+    height: calc(100% - 120px);
 }
 
 .screens {
     width: calc(100% / 7 - 10px);
     aspect-ratio: 16 / 9;
-    background-image:url("https://picsum.photos/300/200") ;
+    background-image: url("https://picsum.photos/300/200");
     min-width: 300px;
 }
 
@@ -80,6 +83,7 @@ main {
     height: 100%;
     display: block;
 }
+
 
 /* flex utility */
 .d-flex {
@@ -93,11 +97,13 @@ main {
 .wrap {
     flex-wrap: wrap;
 }
-.align-items{
+
+.align-items {
     align-content: center;
     align-items: center;
 }
-.s-between{
+
+.s-between {
     justify-content: space-between;
 }
 
@@ -105,11 +111,14 @@ main {
 /* tool-bar */
 #toolbar {
     background-color: #222222;
-    height: 200px;
+    height: 80px;
+    width: 100%;
 }
-.left{
+
+.left {
     color: var(--color-end-call);
 }
-div ul li{
+
+div ul li {
     list-style: none;
 }
