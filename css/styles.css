@@ -73,9 +73,8 @@ main {
 
 .screens {
     width: calc(100% / 7 - 10px);
-    height: calc(100vw / 7 - 10px);
     aspect-ratio: 16 / 9;
-    background-image: url("https://picsum.photos/300/200");
+    background-image: url;
     min-width: 300px;
 }
 
